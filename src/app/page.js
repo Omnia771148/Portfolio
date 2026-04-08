@@ -192,13 +192,13 @@ export default function Home() {
           <span className="marquee-item">Bootstrap UI</span>
         </div>
       </div>
-https://github.com/Omnia771148/Portfolio.git
+
       {/* Projects Section */}
       <section id="projects" className="section-padding">
         <div className="container">
           <motion.div {...fadeIn} className="text-center mb-5">
             <h2 className="display-4 fw-bold mb-3">Our Work</h2>
-            <p className="text-secondary mx-auto" style={{maxWidth: '600px'}}>We don't just build apps, we solve problems. Check out some of our latest real-world deployments.</p>
+            <p className="text-secondary mx-auto" style={{maxWidth: '600px'}}>We don&apos;t just build apps, we solve problems. Check out some of our latest real-world deployments.</p>
           </motion.div>
           <div className="row g-4">
             {projects.map((project, index) => (
